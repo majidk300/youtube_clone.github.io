@@ -1,0 +1,341 @@
+*{
+				padding:0;
+				margin:0;
+				box-sizing:border-box;
+				text-decoration:none;
+				list-style-type:none;
+      font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+	background-color:#FCFCFC;
+}
+
+
+/* navigation_bar start */
+
+.navigation_bar{
+     display:flex;
+     justify-content:space-between;
+     align-items: center;
+				width:100%;
+				height:auto;
+				padding:10px 25px 10px 25px;
+				position:fixed;
+				border:0.3px solid lightgray;
+				background-color:white;
+				z-index:1;
+}
+
+
+/* nav_left */
+.navigation_bar .nav_left{
+		 display:flex;
+		
+}
+
+.navigation_bar .nav_left .bars_icon{
+     position:relative;
+     top:5.5px;
+				font-size:20px;
+				color:#696969;
+}
+
+.navigation_bar .nav_left .youtube_icon{
+				margin-left:22px;
+			
+}
+
+.navigation_bar .nav_left .fa-youtube{
+      position:relative;
+      top:1.7px;
+				font-size:26px;
+				color:red;
+}
+
+
+/* nav_middle */
+.navigation_bar .nav_middle{
+				display: flex;
+}
+			
+
+.navigation_bar .nav_middle #search_nav{
+	position:relative;
+		 padding:8px 0px 8px 8px;
+		 border:0.1px solid #5c5c5c;
+		 border-radius:30px 0 0 30px;
+           font-size:18px;
+		  outline:none;
+}
+
+.navigation_bar .nav_middle #search_nav:hover{
+	border:1px solid #8C0D92;
+}
+
+.navigation_bar .nav_middle .fa-search{
+    position: relative;
+    color:#808080;
+			padding:9px 20px 9px 20px;
+			font-size:20.45px;
+			border:0.1px solid #5c5c5c;
+			border-radius:0 30px 30px 0;
+			right:3.8px;
+			top:1.15px;
+			}
+
+
+.navigation_bar .nav_middle .fa-search:hover{
+        background-color:#EAECEC;
+}
+			
+.navigation_bar .nav_middle .mic_speak .fa-microphone{
+     position: relative;
+				color:#696969;
+				font-size:20px;
+			    top:11px;
+			    left:20px;
+}
+
+/* nav_right */
+.navigation_bar .nav_right{
+				display:flex;
+}
+
+.navigation_bar .nav_right .fa-video, .fa-calendar-alt, .fa-bell{
+				margin-right:30px;
+}
+
+.navigation_bar .nav_right .fa-video, .fa-calendar-alt, .fa-bell, .fa-user-plus{
+	            position:relative;
+				color:#696969;
+				font-size:20px;
+				top:2px;
+}
+
+/* navigation_bar end */
+
+/* side navigation bar start*/
+.side_nav_box{
+     position:relative;
+				width:26%;
+				height:100vh;
+		  	 left:0rem;
+			 z-index:1;
+			 transition:all 0.3s ease;
+			 box-shadow:0px 0px 0.3px 0px lightgray;
+
+}
+
+.side_nav_box .side_top{
+				display: flex;
+				position:fixed;
+				padding:16px 25px 16px 25px;
+				width:20%;
+				z-index:111;
+				background-color:white;
+			    transition:0.2s ease-in-out;
+}
+
+.side_nav_box .side_top .bars_icon{
+     position:relative;
+     top:5.5px;
+				font-size:20px;
+				color:#696969;
+			
+}
+
+.side_nav_box .side_top .youtube_icon{
+				margin-left:23px;
+				
+}
+
+.side_nav_box .side_top .fa-youtube{
+      position:relative;
+      top:1.7px;
+				font-size:26px;
+				color:red;
+				
+}
+
+.side_nav_box .nav_full{
+    width:20%;
+     height:100vh;
+
+				padding:65px 0 0 0;
+				overflow-y:scroll;
+				background-color:white;
+				position:fixed;
+				transition:0.3s ease-in-out;
+}
+
+.side_nav_box .side_navbar_box{
+				padding:20px 0 20px 0;
+				border-bottom:0.2px solid lightgray;
+				
+}
+
+.side_nav_box .side_navbar_box .side_box{
+				padding:10px 0 10px 30px;
+				transition:all 0.2s ease;
+}
+
+.side_nav_box .side_navbar_box .side_box:hover{
+				background-color: lightgray;
+}
+
+.side_nav_box .side_navbar_box .side_icons{
+				font-size:20px;
+				color:#696969;
+				
+}
+
+.side_nav_box .side_navbar_box span{
+     position:relative;
+     top:-1.5px;
+				font-size:16px;
+				margin-left:22px;
+				color:#000f;
+				
+}
+
+
+/* side navigation bar end*/
+
+
+
+/* Sub main start */
+
+
+/* left side part */
+.sub_main{
+     display: flex;
+     position:absolute;
+     position:fixed;
+     width:90px;
+     background-color:white;
+				height:100vh;
+				top:0;
+				left:0;
+				box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
+}
+
+.sub_main .sub_box{
+				height:100vh;
+				padding:73px 0 0 0px;
+				text-align:center;
+}
+
+
+.sub_main .sub_box .sub_icons{
+				padding:20px 20px 20px 6px;
+				transition:all 0.2s ease;
+}
+
+.sub_main .sub_box i{
+			font-size:18px;
+			color:#696969;
+		 
+}
+
+
+.sub_main .sub_box .sub_icons:hover i{
+				color:red;
+}
+
+.sub_main .sub_box p{
+				color:#696969;
+				font-size:13px;
+}
+
+.sub_main .sub_box .sub_icons:hover p{
+				color:red;
+}
+
+
+/* right side video part start */
+
+#sub_box{
+                    position:absolute;
+				width:75%;
+				height:auto;
+						top:6rem;		 		
+	 					left:87%;
+	                         transform: translate(-87%, 0);
+}
+
+
+	.grid{
+					display:grid;
+				  	grid-template-rows:repeat(3,1fr);
+				  	grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+				  	grid-row-gap:30px;
+				  	grid-column-gap:15px;
+						grid-auto-rows:1fr;
+						grid-auto-columns:250px;
+								}
+								
+					.grid .grid-items{
+					width:100%;
+					height:100%;
+	                    transition:all 0.3s ease;
+				 }
+							
+							
+							.grid .grid-items:hover{
+							    transform:scale(0.95);
+							    transform:translateY(-10px);
+							    /*transform:rotate(2deg);*/
+							    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+															
+							}										 							
+							
+					.grid .grid-items .img{
+											width:100%;
+											height:160px;
+							}
+							
+							.grid .grid-items .logo-grid{
+											width:35px;
+											height:35px;
+											border-radius:50%;
+											margin:0.5rem 0 0 0.2rem;
+											border:0.3px solid grey;
+							}
+							
+						.grid .grid-items .box{
+						margin:-2.9rem 0 0 3.5rem;
+						}
+						
+						
+						.grid	.grid-items h3{
+										font-size:16px;
+										color:#1c2137;
+										word-break:break-all;
+										width:85%;
+						}
+						
+						
+						.grid	.grid-items p{
+										margin:0.5rem 0 0 0	;
+										font-size:14px;
+									  color:#0f1724;
+									  
+					}
+						
+  				.grid	.grid-items span{
+							font-size:14px;
+							color:#0f1724;
+						}
+						
+						
+						.grid .grid-items i{
+							position:absolute;
+							top:93%;
+							left:95%;
+							transform: translate(-50%, -50%);
+
+						}
+
+
+/* Sub main end*/

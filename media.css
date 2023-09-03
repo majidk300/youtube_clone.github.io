@@ -1,0 +1,164 @@
+@media screen and (max-width:1380px){
+
+    .navigation_bar .nav_middle #search_nav{
+        width:25rem;
+    }
+
+}
+
+@media screen and (max-width:1280px){
+
+    .navigation_bar .nav_middle #search_nav{
+        width:23rem;
+    }
+
+}
+
+@media screen and (max-width:1150px){
+
+    .navigation_bar .nav_middle #search_nav{
+        width:20rem;
+    }
+
+
+    .side_nav_box .side_top{
+        width:30%;
+     
+}
+
+.side_nav_box .nav_full{
+    width:30%;
+}
+    
+}
+
+
+@media screen and (max-width:980px){
+
+    .navigation_bar .nav_middle #search_nav{
+        width:16rem;
+    }
+
+}
+
+@media screen and (max-width:850px){
+
+    .navigation_bar .nav_middle #search_nav{
+        width:11rem;
+    }
+
+    .side_nav_box .side_top{
+        width:35%;
+     
+}
+
+.side_nav_box .nav_full{
+    width:35%;
+}
+    
+}
+
+@media screen and (max-width:768px){
+
+    .navigation_bar .nav_middle #search_nav{
+        width:5rem;
+    }
+
+    .side_nav_box .side_top{
+        width:40%;
+     
+}
+
+.side_nav_box .nav_full{
+    width:40%;
+}
+    
+}
+
+
+@media screen and (max-width:650px){
+    
+    .navigation_bar .search_nav_, .navigation_bar .mic_speak, .navigation_bar .fa-calendar-alt, .navigation_bar .nav_right{
+        display:none;
+    }
+
+    .navigation_bar .nav_middle .fa-search{
+        position: relative;
+        color:#808080;
+                border:none;
+                right: -30px;
+                transition: all 0.2s ease-in-out;
+                }
+    
+                .navigation_bar .nav_middle .fa-search:hover{
+                    background-color:white;
+                    right: -26px;
+                            }
+
+    .side_nav_box .side_top{
+        width:48%;
+     
+}
+
+.side_nav_box .nav_full{
+    width:48%;
+}
+    
+}
+
+@media screen and (max-width:500px){
+
+    .side_nav_box .side_top{
+        width:60%;
+     
+}
+
+.side_nav_box .nav_full{
+    width:60%;
+}
+
+
+#sub_box{
+width:70%;
+}
+
+
+.grid{
+
+      grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+      grid-row-gap:20px;
+      grid-column-gap:10px;
+                }
+
+                .grid .grid-items .img{
+                    height:130px;
+    }
+    
+}
+
+@media screen and (max-width:400px){
+
+    .side_nav_box .side_top{
+        width:80%;
+     
+}
+
+.side_nav_box .nav_full{
+    width:80%;
+}
+    
+}
+
+@media screen and (max-width:300px){
+
+    .side_nav_box .side_top{
+        width:90%;
+        
+     
+}
+
+.side_nav_box .nav_full{
+    width:90%;
+}
+    
+}

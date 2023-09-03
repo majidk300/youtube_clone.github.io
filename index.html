@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<title>YouTube_website_Majid</title>
+				
+	<link rel="stylesheet" href="style_youtube.css">
+			
+	<link rel="stylesheet" href="media.css">
+			
+	 <script src="YouTube_page.js"></script>
+	 
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+				
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous"/>
+				
+				<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+				
+</head>
+<body>
+			
+				<!-- navigation_bar start-->
+				<div class="navigation_bar">
+								
+								<!-- nav_left -->
+								<div class="nav_left">	
+												
+									<div class="sidebars" onclick="openNav()">
+										<i class="fas fa-bars bars_icon" id="barsicons"></i>
+									</div>
+										
+										
+					<div class="youtube_icon">
+			<i class="fab fa-youtube"></i> <span style="position: relative; font-size:24px; top:-1px">YouTube</span> <sup>IN</sup>
+								</div>
+											
+								</div>
+								
+								<!-- nav_middle -->
+					<div class="nav_middle">
+									
+								<div class="search_nav">
+		<input type="search" name=""          
+	placeholder="Search" id="search_nav" class="search_nav_" size="58">
+	<i class="fas fa-search"></i>
+			    	</div>
+			    	
+			    	<div class="mic_speak">
+			    			<i class="fas fa-microphone"></i>
+			    	</div>
+							
+								</div>
+								
+								<!-- nav_right -->
+							<div class="nav_right">
+										
+						<div class="youtube_icon">
+						<i class="fas fa-video"></i>
+								</div>
+								
+						<div class="youtube_icon">
+						<i class="far fa-calendar-alt"></i>
+								</div>
+								
+					<div class="youtube_icon">
+							<i class="fas fa-bell"></i>
+								</div>
+								
+				 <div class="youtube_icon">
+							<i class="fas fa-user-plus"></i>
+								</div>
+						
+								</div>
+								
+								
+				</div>
+				
+				<!-- navigation_bar end -->
+				
+				
+				<!--side navigation bar start-->
+				<div class="side_nav_box" id="sidenavboxes">
+								
+																									
+								<div class="side_top">
+												
+								<div class="sidebars" href="javascript:void(0)" onclick="closeNav()">
+										<i class="fas fa-bars bars_icon" id="barsicons"></i>
+									</div>
+										
+					<div class="youtube_icon">
+			<i class="fab fa-youtube"></i> <span style="position: relative; font-size:24px; top:-1px">YouTube</span> <sup>IN</sup>
+								</div>
+								
+								
+			</div>							
+			
+								
+								<div class="nav_full">
+								
+								<div class="side_navbar_box">
+												
+								<div class="side_box">
+		<a href="#"><i class="fas fa-home side_icons"></i><span>Home</span></a>
+										</div>
+										
+								<div class="side_box">
+				<a href="#"><i class="fas fa-compass side_icons"></i><span>Explore</span></a>
+										</div>
+										
+						<div class="side_box">
+		<a href="#"><i class="fas fa-scroll side_icons"></i><span>Subscription</span></a>
+										</div>
+												
+								</div>	
+								
+								
+								<!--library-->
+								
+							<div class="side_navbar_box">
+												
+								<div class="side_box">
+		<a href="#"><i class="fas fa-photo-video side_icons"></i><span>Library</span></a>
+										</div>
+										
+								<div class="side_box">
+				<a href="#"><i class="fas fa-history side_icons"></i><span>History</span></a>
+										</div>
+										
+						<div class="side_box">
+		<a href="#"><i class="fas fa-film side_icons"></i><span>Your videos</span></a>
+										</div>
+										
+									<div class="side_box">
+		<a href="#"><i class="fas fa-clock side_icons"></i><span>Watch later</span></a>
+										</div>
+										
+								<div class="side_box">
+				<a href="#"><i class="fas fa-thumbs-up side_icons"></i><span>Like videos</span></a>
+										</div>
+										
+						<div class="side_box">
+		<a href="#"><i class="fas fa-eye side_icons"></i><span>Most viewed</span></a>
+										</div>
+												
+								</div>
+								
+								
+								<!--subscription-->
+								
+								<div class="side_navbar_box">
+												
+		<p style="color:#696969; font-size:16px; padding:0 0 10px 20px; font-weight:bold;">SUBSCRIBTION</p>
+										
+								<div class="side_box">
+				<a href="#"><i class="fas fa-user-alt side_icons"></i><span>Your account</span></a>
+										</div>
+										
+						<div class="side_box">
+		<a href="#"><i class="fas fa-window-restore side_icons"></i><span>Browse channels</span></a>
+										</div>
+												
+								</div>		
+								
+								
+								<!--more from youtube-->
+								
+								<div class="side_navbar_box">
+												
+		<p style="color:#696969; font-size:16px; padding:0 0 10px 22px; font-weight:bold;">MORE FROM YOUTUBE</p>
+										
+								<div class="side_box">
+				<a href="#"><i class="fas fa-icons side_icons"></i><span>YouTube Premium</span></a>
+										</div>
+										
+						<div class="side_box">
+		<a href="#"><i class="fas fa-film side_icons"></i><span>Films</span></a>
+										</div>
+										
+										<div class="side_box">
+				<a href="#"><i class="fas fa-headset side_icons"></i><span>Gaming</span></a>
+										</div>
+									
+						<div class="side_box">
+		<a href="#"><i class="fas fa-signal side_icons"></i><span>Live</span></a>
+										</div>
+										
+										<div class="side_box">
+				<a href="#"><i class="fas fa-industry side_icons"></i><span>Fashion & beauty</span></a>
+										</div>
+										
+						<div class="side_box">
+		<a href="#"><i class="fas fa-book side_icons"></i><span>Learning</span></a>
+										</div>
+										
+										<div class="side_box">
+				<a href="#"><i class="fas fa-running side_icons"></i><span>Sports</span></a>
+										</div>
+												
+								</div>
+								
+								
+								<!--settinng-->
+								
+								<div class="side_navbar_box">
+												
+								<div class="side_box">
+		<a href="#"><i class="fas fa-user-cog side_icons"></i><span>Settings</span></a>
+										</div>
+										
+								<div class="side_box">
+				<a href="#"><i class="fas fa-bug side_icons"></i><span>Report history</span></a>
+										</div>
+										
+						<div class="side_box">
+		<a href="#"><i class="fas fa-hands-helping side_icons"></i><span>Help</span></a>
+										</div>
+										
+										<div class="side_box">
+		<a href="#"><i class="fas fa-comment-dots side_icons"></i><span>Send feedback</span></a>
+										</div>
+												
+								</div>
+								
+								
+								
+								
+								</div>
+								
+				</div>
+				
+				<!--side navigation bar end-->
+				
+				
+				<!-- Sub main start -->
+							<div class="sub_main">
+
+					<!-- left side part start  -->
+								<div class="sub_box">
+											
+											<div class="sub_icons">
+	<a href="#"><i class="fas fa-home side_icons"></i><p>Home</p></a>
+											</div>	
+											
+											<div class="sub_icons">
+															<a href="#"><i class="fas fa-compass side_icons"></i><p>Explore</p></a>
+											</div>	
+											
+											
+											<div class="sub_icons">
+															<a href="#"><i class="fas fa-scroll side_icons"></i><p>Subscription</p></a>
+											</div>	
+											
+											
+												<div class="sub_icons">
+															<a href="#"><i class="fas fa-film side_icons"></i><p>Library</p></a>
+											</div>	
+														
+																			
+								</div>
+								
+								</div>
+								
+									<!-- left side part end  -->
+									
+									
+					<!-- right side video part start -->
+								
+								
+				<!-- right side video part end-->
+									<div class="sub_box" id="sub_box">
+								
+								
+								<div class="grid">
+												
+												
+	<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=o_go-8TFBXs">
+	<img src="Assets/Attack on Titan.jpeg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=o_go-8TFBXs">
+		<div class="box">
+						<h3>Attack on Titan final Season |Official Trailer</h3>
+		<p>Channel name</p>
+		<span>64M views • 9month ago</span></div></a>
+        <i class="fas fa-ellipsis-v"></i>
+												</div>
+												
+												
+					<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=kZcFPuXMyUg">
+	<img src="Assets/Jujutsu kaisen.jpeg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=kZcFPuXMyUg">
+		<div class="box">
+						<h3>Jujutsu Kaisen [AMV] - Monster</h3>
+		<p>Channel name</p>
+		<span>43M views • 5month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+												
+
+
+	<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=sftZkiDegTY">
+	<img src="Assets/Bad-liar.jpg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=sftZkiDegTY">
+		<div class="box">
+						<h3>Anime AMV | I am a bad liar | whatsapp status</h3>
+		<p>Channel name</p>
+		<span>36M views • 9month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+												
+												
+												
+													<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=OakZzYpe2wo">
+	<img src="Assets/Solo leveling.jpeg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=OakZzYpe2wo">
+		<div class="box">
+						<h3>Solo Leveling MMV [AMV] Fearless</h3>
+		<p>Channel name</p>
+		<span>24M views • 4month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+
+
+	<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=FUpza22te6g">
+	<img src="Assets/One punchman.jpeg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=FUpza22te6g">
+		<div class="box">
+						<h3>One punch man AMV - Ready or not</h3>
+		<p>Channel name</p>
+		<span>58M views • 10month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+												
+												
+												<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=XETqMX0pwF4">
+	<img src="Assets/Avaken.jpeg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=XETqMX0pwF4">
+		<div class="box">
+						<h3>Awaken AMV - [Anime Amv] | Demon slayer</h3>
+		<p>Channel name</p>
+		<span>58M views • 10month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+												
+
+<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=DEB03-C2I20">
+	<img src="Assets/Sword art online.jpeg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=DEB03-C2I20">
+		<div class="box">
+						<h3>Sword art online underworld [AMV]</h3>
+		<p>Channel name</p>
+		<span>37M views • 11month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+												
+												
+												
+												<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=OVCAeVFEt1Y">
+	<img src="Assets/Black clover.jpeg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=OVCAeVFEt1Y">
+		<div class="box">
+						<h3>Yami & Asta Vs Sante - Black clover [AMV]</h3>
+		<p>Channel name</p>
+		<span>68M views • 8month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+												
+												
+												<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=o_go-8TFBXs">
+	<img src="Assets/Attack on Titan.jpeg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=o_go-8TFBXs">
+		<div class="box">
+						<h3>Attack on Titan final Season |Official Trailer</h3>
+		<p>Channel name</p>
+		<span>64M views • 9month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+												
+												
+					<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=kZcFPuXMyUg">
+	<img src="Assets/Jujutsu kaisen.jpeg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=kZcFPuXMyUg">
+		<div class="box">
+						<h3>Jujutsu Kaisen [AMV] - Monster</h3>
+		<p>Channel name</p>
+		<span>43M views • 5month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+												
+
+
+	<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=sftZkiDegTY">
+	<img src="Assets/Bad-liar.jpg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=sftZkiDegTY">
+		<div class="box">
+						<h3>Anime AMV | I am a bad liar | whatsapp status</h3>
+		<p>Channel name</p>
+		<span>36M views • 9month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+												
+	
+												
+													<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=OakZzYpe2wo">
+	<img src="Assets/Solo leveling.jpeg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=OakZzYpe2wo">
+		<div class="box">
+						<h3>Solo Leveling MMV [AMV] Fearless</h3>
+		<p>Channel name</p>
+		<span>24M views • 4month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+
+
+	<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=FUpza22te6g">
+	<img src="Assets/One punchman.jpeg" alt="" class="img">
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=FUpza22te6g">
+		<div class="box">
+						<h3>One punch man AMV - Ready or not</h3>
+		<p>Channel name</p>
+		<span>58M views • 10month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+												
+												
+												<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=XETqMX0pwF4">
+	<img src="Assets/Avaken.jpeg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=XETqMX0pwF4">
+		<div class="box">
+						<h3>Awaken AMV - [Anime Amv] | Demon slayer</h3>
+		<p>Channel name</p>
+		<span>58M views • 10month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+												
+
+<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=DEB03-C2I20">
+	<img src="Assets/Sword art online.jpeg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=DEB03-C2I20">
+		<div class="box">
+						<h3>Sword art online underworld [AMV]</h3>
+		<p>Channel name</p>
+		<span>37M views • 11month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+												
+												
+												
+												<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=OVCAeVFEt1Y">
+	<img src="Assets/Black clover.jpeg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=OVCAeVFEt1Y">
+		<div class="box">
+						<h3>Yami & Asta Vs Sante - Black clover [AMV]</h3>
+		<p>Channel name</p>
+		<span>68M views • 8month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+												
+												
+												
+												<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=o_go-8TFBXs">
+	<img src="Assets/Attack on Titan.jpeg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=o_go-8TFBXs">
+		<div class="box">
+						<h3>Attack on Titan final Season |Official Trailer</h3>
+		<p>Channel name</p>
+		<span>64M views • 9month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+												
+												
+					<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=kZcFPuXMyUg">
+	<img src="Assets/Jujutsu kaisen.jpeg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=kZcFPuXMyUg">
+		<div class="box">
+						<h3>Jujutsu Kaisen [AMV] - Monster</h3>
+		<p>Channel name</p>
+		<span>43M views • 5month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+												
+
+
+	<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=sftZkiDegTY">
+	<img src="Assets/Bad-liar.jpg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=sftZkiDegTY">
+		<div class="box">
+						<h3>Anime AMV | I am a bad liar | whatsapp status</h3>
+		<p>Channel name</p>
+		<span>36M views • 9month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+												
+												
+												
+													<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=OakZzYpe2wo">
+	<img src="Assets/Solo leveling.jpeg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=OakZzYpe2wo">
+		<div class="box">
+						<h3>Solo Leveling MMV [AMV] Fearless</h3>
+		<p>Channel name</p>
+		<span>24M views • 4month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+
+
+	<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=FUpza22te6g">
+	<img src="Assets/One punchman.jpeg" alt="" class="img">
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=FUpza22te6g">
+		<div class="box">
+						<h3>One punch man AMV - Ready or not</h3>
+		<p>Channel name</p>
+		<span>58M views • 10month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+												
+												
+												<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=XETqMX0pwF4">
+	<img src="Assets/Avaken.jpeg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=XETqMX0pwF4">
+		<div class="box">
+						<h3>Awaken AMV - [Anime Amv] | Demon slayer</h3>
+		<p>Channel name</p>
+		<span>58M views • 10month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+												
+
+<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=DEB03-C2I20">
+	<img src="Assets/Sword art online.jpeg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=DEB03-C2I20">
+		<div class="box">
+						<h3>Sword art online underworld [AMV]</h3>
+		<p>Channel name</p>
+		<span>37M views • 11month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+												
+												
+												
+												<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=OVCAeVFEt1Y">
+	<img src="Assets/Black clover.jpeg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=OVCAeVFEt1Y">
+		<div class="box">
+						<h3>Yami & Asta Vs Sante - Black clover [AMV]</h3>
+		<p>Channel name</p>
+		<span>68M views • 8month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+												
+												
+												
+												<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=o_go-8TFBXs">
+	<img src="Assets/Attack on Titan.jpeg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=o_go-8TFBXs">
+		<div class="box">
+						<h3>Attack on Titan final Season |Official Trailer</h3>
+		<p>Channel name</p>
+		<span>64M views • 9month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+												
+												
+					<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=kZcFPuXMyUg">
+	<img src="Assets/Jujutsu kaisen.jpeg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=kZcFPuXMyUg">
+		<div class="box">
+						<h3>Jujutsu Kaisen [AMV] - Monster</h3>
+		<p>Channel name</p>
+		<span>43M views • 5month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+												
+
+
+	<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=sftZkiDegTY">
+	<img src="Assets/Bad-liar.jpg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=sftZkiDegTY">
+		<div class="box">
+						<h3>Anime AMV | I am a bad liar | whatsapp status</h3>
+		<p>Channel name</p>
+		<span>36M views • 9month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+												
+												
+												
+													<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=OakZzYpe2wo">
+	<img src="Assets/Solo leveling.jpeg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=OakZzYpe2wo">
+		<div class="box">
+						<h3>Solo Leveling MMV [AMV] Fearless</h3>
+		<p>Channel name</p>
+		<span>24M views • 4month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+
+
+	<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=FUpza22te6g">
+	<img src="Assets/One punchman.jpeg" alt="" class="img">
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=FUpza22te6g">
+		<div class="box">
+						<h3>One punch man AMV - Ready or not</h3>
+		<p>Channel name</p>
+		<span>58M views • 10month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+												
+												
+												<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=XETqMX0pwF4">
+	<img src="Assets/Avaken.jpeg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=XETqMX0pwF4">
+		<div class="box">
+						<h3>Awaken AMV - [Anime Amv] | Demon slayer</h3>
+		<p>Channel name</p>
+		<span>58M views • 10month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+												
+
+<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=DEB03-C2I20">
+	<img src="Assets/Sword art online.jpeg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=DEB03-C2I20">
+		<div class="box">
+						<h3>Sword art online underworld [AMV]</h3>
+		<p>Channel name</p>
+		<span>37M views • 11month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+												
+												
+												
+												<div class="grid-items">
+					<a href="https://m.youtube.com/watch?v=OVCAeVFEt1Y">
+	<img src="Assets/Black clover.jpeg" alt="" class="img"></a>
+		<img src="Assets/Logivideo.jpg" alt="" class="logo-grid">
+		<a href="https://m.youtube.com/watch?v=OVCAeVFEt1Y">
+		<div class="box">
+						<h3>Yami & Asta Vs Sante - Black clover [AMV]</h3>
+		<p>Channel name</p>
+		<span>68M views • 8month ago</span></div></a>
+		<i class="fas fa-ellipsis-v"></i>
+												</div>
+												
+												
+										
+								</div>
+																
+								
+				</div>
+			
+	
+					<!-- Sub main end -->
+					
+
+</body>
+</html>
